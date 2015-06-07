@@ -16,7 +16,8 @@ do_plot1 <- function(data) {
         hist(x = data$Global_active_power,
              col = "red",
              xlab = "Global Active Power (kilowatts)",
-             main = "Global Active Power")
+             main = "Global Active Power",
+             freq = F)
 }
 
 # Generate the plot2
